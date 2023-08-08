@@ -18,7 +18,7 @@ The release has a total of 4-6 tracks and the entire release is less than 30 min
 Any release with seven or more tracks will be considered an album.
 Any release that has 1-6 tracks but is over 30 minutes long will be considered an album.
 
-## Getting Started
+# Getting Started
 Install the plugin and make sure you using at least version 1.6.0 of beets and Python 3.8.
 
 To use the releasetype plugin, first enable it in your configuration [see Using Plugins](https://beets.readthedocs.io/en/latest/plugins/index.html#using-plugins). 
@@ -29,3 +29,14 @@ plugins:
 ```
 Then, install the inquirer library by typing:
 `pip install inquirer`
+
+# CLI Reference
+You can write a releasetype to a single album by typing:
+
+`beet releasetype --album 'Khaos De Viscera'`
+
+`beet releasetype --a 'Khaos De Viscera'`
+
+Or write the releasetype for your entire library by typing:
+
+`beet releastype`
