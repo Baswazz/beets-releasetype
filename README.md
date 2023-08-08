@@ -33,9 +33,9 @@ Then, install the inquirer library by typing:
 # CLI Reference
 You can write a releasetype to a single album by typing:
 
-`beet releasetype --album 'Khaos De Viscera'`
+`beet releasetype --album 'Album name'`
 
-`beet releasetype --a 'Khaos De Viscera'`
+`beet releasetype --a 'Album name'`
 
 Or write the releasetype for your entire library by typing:
 
